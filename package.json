@@ -1,0 +1,35 @@
+{
+  "name": "aho-vite-vue3-vuetify3",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "npx vite --port=4000",
+    "host": "npx vite --port=4000 --host",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "pinia": "^2.0.14",
+    "roboto-fontface": "*",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.53.0",
+    "vite": "^2.9.12",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.0",
+    "vue-cli-plugin-vuetify": "~2.5.1"
+  }
+}
